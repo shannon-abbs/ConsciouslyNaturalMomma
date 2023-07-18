@@ -437,7 +437,7 @@ footer .copyright {
   display:flex;
   justify-content: center;
   color:#44383e;
-  
+  line-height: 100%;
   font-family: 'blackbike', cursive;  
   text-shadow: 5px 5px 10px #ef9791;
 }
@@ -886,13 +886,12 @@ flex-flow: column wrap;
   }
 
   header nav {
-    width: 75%;
+    width: 78%;
   }
 
   header nav ul {
     justify-content: space-between;
     padding-left: 0%;
-    padding-right: 8%;
     flex-flow: row wrap;
   }
 
@@ -1068,7 +1067,8 @@ footer .copyright {
 /*------Blog Post & Category Templates ---------*/
 
 .parent-container {
-     width: 90%;
+     width: 98%;
+
   }
 }
 
