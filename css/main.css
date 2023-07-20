@@ -739,13 +739,16 @@ flex-flow: column wrap;
 
 /*--- Blog post & category templates --*/
 
-.blog-post-photo {
-  padding: 1%;
-}
 
 
 .child-1 {
   margin: 2%;
+}
+
+.child-1 figure {
+  display: flex;
+  justify-content: center;
+  
 }
 
 .date-category h4 {
@@ -1258,7 +1261,7 @@ footer .copyright {
 .sidebar figure {
   width: 70%;
   padding-left: 20%;
-  
+  margin-top: -300px;
 }
 
 .sidebar-text {
