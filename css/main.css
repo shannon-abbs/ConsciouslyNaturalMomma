@@ -1228,7 +1228,6 @@ footer .copyright {
   width: 100%;
   display:flex;
   flex-flow: row wrap;
-  justify-content: space-evenly;
   padding: 0;
   margin: 0;
 }
@@ -1236,8 +1235,9 @@ footer .copyright {
 .child-1 {
   display: flex;
   flex-flow: column wrap;
-  width: 72%;
-  
+  width: 73%;
+  padding-right: 20px;
+  border-right: dotted 1px #44383e;
 }
 
 .child-1 h1 {
@@ -1250,23 +1250,23 @@ footer .copyright {
   display: flex;
   flex-flow: column;
   justify-content:center;
+  align-self: baseline;
   width: 20%;
   padding: 0;
+  padding-top: 25px;
   margin: 0;
-  margin-top: -300px;
-  border-left: dotted 1px #44383e;
 }
 
 
 
 .sidebar figure {
-  width: 70%;
-  padding-left: 20%;
+  width: 80%;
+  align-self: center;
 }
 
 .sidebar-text {
-  width: 98%;
-  padding-left: 8%;
+  width: 100%;
+  padding: 0;
 }
 
 
