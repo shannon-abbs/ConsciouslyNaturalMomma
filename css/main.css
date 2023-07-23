@@ -589,6 +589,7 @@ flex-flow: column wrap;
 .qi-child h1 {
 text-align: center;
 color:#44383e;
+font-size: 2.5em;
 }
 
 
@@ -770,6 +771,16 @@ flex-flow: column wrap;
   font-size: smaller;
 }
 
+/*----Legal Pages ------*/
+
+.parent-container-legal {
+  width: 98%;
+  margin:2%;
+}
+
+.parent-container-legal strong{
+  color:#44383e;
+}
 
 
 
