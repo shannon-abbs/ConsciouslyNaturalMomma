@@ -98,18 +98,32 @@ html {
 body {
   font-family: "Poppins", sans-serif;
   font-size: 1em;
-  color: #44383e;
+  color: #000d00;
 }
 
 /*fonts*/
 
 @font-face {
-  font-family: 'blackbike', cursive, clean;  
-  font-family: 'Dancing Script', cursive;; 
-  src: url ('fonts/Blackbike');
+  font-family: "blackbike", cursive;
+  src: url ('../fonts/blackbike-clean');
+ 
+  font-family: "Oleo Script", system-ui;
+  src: url ('../fonts/oleo-script-regular');
   format: ('otf');
   } 
 
+  .oleo-script-regular {
+    font-family: "Oleo Script", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .oleo-script-bold {
+    font-family: "Oleo Script", system-ui;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
 
 ul,
 ol {
@@ -122,7 +136,7 @@ a {
 }
 
 h1 {
-  color: #44383e;
+  color: #000d00;
   font-family: "Poppins", sans-serif;
   font-size: 1.5em;
   line-height: 45px;
@@ -130,7 +144,7 @@ h1 {
 }
 
 h2 {
-  color: #44383e;
+  color: #000d00;
   font-family: "Poppins", sans-serif;
   font-size: 1em;
   font-style: italic;
@@ -151,7 +165,7 @@ p {
   font-size: .85em;
   line-height: 20px;
   letter-spacing: 1px;
-  color: #44383e;
+  color: #000d00;
   font-family: "Poppins", sans-serif;
   font-weight: 300;
   font-style: normal;
@@ -166,7 +180,7 @@ strong {
 input {
   font-size: 1.125em;
   font-weight: 500;
-  color: #44383e;
+  color: #000d00;
 }
 
 img {
@@ -239,13 +253,14 @@ address {
   display: flex;
   justify-content: center;
   border-radius: 4px;
-  background-color: #ffe397;
+  background-color: #f1c84b;
   border: none;
-  color: #44383e;
+  color: #000d00;
   text-align: center;
   font-size: 16px;
+  font-weight: bold;
   padding: 10px;
-  width: 150px;
+  width: 200px;
   transition: all 0.5s;
   cursor: pointer;
   margin: 20px;
@@ -332,7 +347,7 @@ header nav ul {
 
 
 .header-divider {
-  background: #44383e;
+  background:  #000d00;
   height: 1px;
   width: 100%;
   margin: 10px 0 10px 0;
@@ -344,7 +359,7 @@ header nav ul {
 footer {
   text-align: center;
   flex-direction: column;
-  background-color: #44383e;
+  background-color: #000d00;
 }
 
 footer p {
@@ -371,8 +386,9 @@ footer .contact address {
 
 footer .social-icons {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  width: 8.5em;
 }
 
 footer .social-icons p {
@@ -389,7 +405,8 @@ footer .social-icons p i {
   font-size: 1.3125em;
 }
 
-footer .copyright {
+footer .copyright p{
+  text-align: center;
   margin: 20px 0;
   color:#fffefa;
 }
@@ -403,12 +420,12 @@ footer .copyright {
   display: flex;
   justify-content: center;
   flex-flow: column wrap;
-  background: url(../img/hero.png);
-  min-height: 500px;  
+  background: url(../img/hero-1.png);
+  min-height: 300px;  
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-color: #333;
+  background-color: #000d00;
 }
 
 .hero-area h1 {
@@ -439,10 +456,11 @@ footer .copyright {
 .page-name h1 {
   display:flex;
   justify-content: center;
-  color:#44383e;
+  color:#000d00;
   line-height: 100%;
   font-family: 'blackbike', cursive;  
   text-shadow: 5px 5px 10px #ef9791;
+  padding-top: 3%;
 }
 
 
@@ -476,7 +494,7 @@ footer .copyright {
 
 .blog-summary h4 {
   margin: 20px 0;
-  border: #44383e solid;
+  border: #000d00 solid;
   border-radius: 10%;
 }
 
@@ -487,7 +505,7 @@ footer .copyright {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-  background: #44383e;
+  background: #000d00;
   margin-bottom: 20px;
 
 }
@@ -547,7 +565,6 @@ footer .copyright {
   font-family: 'blackbike', cursive;
   font-size: 1.5em;
   font-weight: bold;
-
 }
 
 
@@ -586,11 +603,12 @@ footer .copyright {
 justify-content: center;
 align-items: center;
 flex-flow: column wrap;
+font-weight: bold;
 }
 
 .qi-child h1 {
 text-align: center;
-color:#44383e;
+color:#000d00;
 font-size: 2.5em;
 }
 
@@ -609,44 +627,19 @@ font-size: 2.5em;
 
 .quick-intro-parent .qi-child ul {
   padding: 2%;
-  color:#44383e;
-}
-
-
-#grad1 {
-  height:fit-content;
-  background-color: pink; /* For browsers that do not support gradients */
-  background-image: linear-gradient(to right, pink , lightyellow);
-   margin: 5%;
-}
-
-.qi-review-child {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  padding: 1%;
-  border: #44383e inset;
-}
-
-.qi-review-child strong {
-  font-size: large;
-}
-
-.qi-review-child p {
-  color:#44383e;
+  color:#000d00;
 }
 
 
 .qi-preview-child h2, .iframe{
   display:flex;
   justify-content: center;
-  color:#44383e;
+  color:#000d00;
 }
 
 
 #sales-description {
-  background-color: #44383e;
+  background-color: #000d00;
   padding: 3%;
 }
 
@@ -685,6 +678,7 @@ text-align: left;
   justify-content: center;
   padding: 4%;
   text-align: center;
+  
 }
 
 .fy-text {
@@ -696,7 +690,8 @@ flex-flow: column wrap;
 
 .fy-text p {
   text-align: center;
-  color:#44383e;
+  color:#000d00;
+  font-weight: bold;
 }
 
 .fy-text h1, strong {
@@ -706,12 +701,12 @@ flex-flow: column wrap;
 .book-banner {
     display: flex;
     justify-content: center;    
-    background: url(../img/book-banner-1.png);
-    min-height: 200px;  
+    background: url(../img/book-banner-1.jpg);
+    min-height: 300px;  
     background-size:contain;
     background-position: center;
     background-repeat: no-repeat;
-    background-color: #333;
+
   }
 
   
@@ -719,8 +714,8 @@ flex-flow: column wrap;
 
 .no-sidebar {
   margin: 1% 3% 0 3%;
-  padding: 1%;
- }
+  padding: 0%;
+}
 
 
 .no-sidebar figure {
@@ -731,6 +726,10 @@ flex-flow: column wrap;
 .no-sidebar-text{
   text-align: center;
   font-weight:bold;
+}
+
+.no-sidebar p {
+  text-align: center;
 }
 
 .no-sidebar-text strong {
@@ -764,7 +763,7 @@ flex-flow: column wrap;
 
 .child-1 h1, h2, p {
   text-align: left;
-  color:#44383e;
+  color:#000d00;
 }
 
 .child-1 article {
@@ -781,7 +780,7 @@ flex-flow: column wrap;
 }
 
 .parent-container-legal strong{
-  color:#44383e;
+  color:#000d00;
 }
 
 
@@ -929,6 +928,10 @@ flex-flow: column wrap;
     width: 100%;
   }
 
+.footer{
+  height: 100px;
+}
+
 
 /* ==========================================================================
        Home Page
@@ -1066,12 +1069,22 @@ footer .copyright {
   padding-left: 20%;
 }
 
+.book-banner {
+  display: flex;
+  justify-content: center;    
+  background: url(../img/book-banner-1.jpg);
+  min-height: 400px;  
+  background-size: cover;
+
+}
+
 /*No-Sidebar This is Static for the home & book page! */
 
 .no-sidebar {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   margin: 0 3% 0 3%;
+  align-items: center;
 }
 
 
@@ -1082,7 +1095,7 @@ footer .copyright {
 }
 
 .no-sidebar-text{
-  width: 70%;
+  width: 50%;
   padding-top: 2%;
 }
 
@@ -1208,11 +1221,21 @@ footer .copyright {
 
 }
 
+.book-banner {
+  display: flex;
+  justify-content: center;    
+  background: url(../img/book-banner-1.jpg);
+  min-height: 700px;  
+  background-size: cover;
+
+}
+
 /*No-Sidebar it's static on the home & book page!*/
 
 .no-sidebar {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
   margin: 0 3% 0 3%;
 }
 
@@ -1224,7 +1247,7 @@ footer .copyright {
 }
 
 .no-sidebar-text{
-  width: 70%;
+  width: 50%;
   padding-top: 2%;
 }
 
@@ -1250,7 +1273,7 @@ footer .copyright {
   flex-flow: column wrap;
   width: 73%;
   padding-right: 20px;
-  border-right: dotted 1px #44383e;
+  border-right: dotted 1px #000d00;
 }
 
 .child-1 h1 {
