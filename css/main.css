@@ -386,7 +386,7 @@ footer .contact address {
 
 footer .social-icons {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   
 }
