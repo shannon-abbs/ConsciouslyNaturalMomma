@@ -92,7 +92,7 @@ textarea {
 
 html {
   font-size: 16px;
-  background-color: #fffefa;
+  background-color: #fdfaf0;
 }
 
 body {
@@ -210,7 +210,7 @@ address {
   border-radius: 4px;
   background-color: #ef9791;
   border: none;
-  color: #fffefa;
+  color: #fdfaf0;
   text-align: center;
   font-size: 16px;
   padding: 10px;
@@ -301,7 +301,7 @@ footer {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  background-color: #fffefa;
+  background-color: #fdfaf0;
 }
 
 header {
@@ -364,7 +364,7 @@ footer {
 
 footer p {
   margin: 0;
-  color:#fffefa;
+  color:#fdfaf0;
 }
 
 footer .content-wrapper {
@@ -379,7 +379,7 @@ footer .contact {
 footer .contact address {
   display: flex;
   justify-content: center;
-  color: #fffefa;
+  color: #fdfaf0;
 }
 
 
@@ -392,7 +392,7 @@ footer .social-icons {
 }
 
 footer .social-icons p {
-  background-color:#fffefa;
+  background-color:#fdfaf0;
   border-radius: 50%;
   width: 40px;
   height: 40px;
@@ -408,7 +408,7 @@ footer .social-icons p i {
 footer .copyright p{
   text-align: center;
   margin: 20px 0;
-  color:#fffefa;
+  color:#fdfaf0;
 }
 
 /* -------------------- Mobile - HOME PAGE -------------------- */
@@ -433,7 +433,7 @@ footer .copyright p{
   justify-content: center;
   align-items: center;
   font-size: 2em;
-  color:#fffefa;
+  color:#fdfaf0;
   line-height: 40px;
   text-align: center;
   padding-bottom: 10px;
@@ -445,7 +445,7 @@ footer .copyright p{
   
   justify-content: center;
   align-items: center;
-  color:#fffefa;
+  color:#fdfaf0;
   text-align: center;
   margin:0;
  
@@ -529,7 +529,7 @@ footer .copyright p{
   text-align: center;
   margin-top: 50px;
   margin-bottom: 0px;
-  color:#fffefa;
+  color:#fdfaf0;
 
 }
 
@@ -651,11 +651,11 @@ flex-flow: column wrap;
 }
 
 .sd-flex-1, .sd-flex-2, h1, h2 {
-  color:#fffefa;
+  color:#fdfaf0;
 }
 
 .sd-flex-1 p {
-  color:#fffefa;
+  color:#fdfaf0;
 }
 
 
@@ -1214,7 +1214,7 @@ footer .copyright {
 
 .sd-flex-2 h1 {
   font-size: larger;
-  color:#fffefa;
+  color:#fdfaf0;
 }
 .sd-flex-2 ul li {
   color:#ef9791;
