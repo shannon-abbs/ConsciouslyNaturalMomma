@@ -226,6 +226,7 @@ address {
   right: 0;
 }
 
+
 /*buy now button*/
 
  .buy-button {
@@ -540,11 +541,12 @@ footer .copyright p{
 }
 
 .sidebar-text strong {
-  color: black;
+  
   font-family: 'lobster', cursive;
   font-size: 1.5em;
   font-weight: bold;
 }
+
 
 
 /* Legal Docs */
@@ -977,6 +979,7 @@ flex-flow: column wrap;
 .sidebar figure {
   width: 25%;
  padding: 0; 
+  
 
 }
 
