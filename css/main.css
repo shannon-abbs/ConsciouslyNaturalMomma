@@ -102,27 +102,6 @@ body {
 }
 
 /*fonts*/
-
-@font-face {
-  font-family: "blackbike", cursive;
-  src: url ('../fonts/blackbike-clean');
- 
-  font-family: "Oleo Script", system-ui;
-  src: url ('../fonts/oleo-script-regular');
-  format: ('otf');
-  } 
-
-  .oleo-script-regular {
-    font-family: "Oleo Script", system-ui;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  .oleo-script-bold {
-    font-family: "Oleo Script", system-ui;
-    font-weight: 700;
-    font-style: normal;
-  }
   
 
 ul,
@@ -458,7 +437,7 @@ footer .copyright p{
   justify-content: center;
   color:#000d00;
   line-height: 100%;
-  font-family: 'blackbike', cursive;  
+  font-family: 'lobster', cursive;  
   text-shadow: 5px 5px 10px #ef9791;
   padding-top: 3%;
 }
@@ -562,7 +541,7 @@ footer .copyright p{
 
 .sidebar-text strong {
   color: black;
-  font-family: 'blackbike', cursive;
+  font-family: 'lobster', cursive;
   font-size: 1.5em;
   font-weight: bold;
 }
@@ -733,7 +712,7 @@ flex-flow: column wrap;
 }
 
 .no-sidebar-text strong {
-  font-family: 'blackbike', cursive;
+  font-family: 'lobster', cursive;
   font-size: 1.5em;
   font-weight: bold;
 
@@ -756,7 +735,7 @@ flex-flow: column wrap;
 .date-category h4 {
   text-align: left;
   color:#ef9791;
-  font-family: 'blackbike', cursive;
+  font-family: 'lobster', cursive;
   padding: 1%;
   margin:0%;
 }
