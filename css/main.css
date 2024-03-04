@@ -533,6 +533,13 @@ footer .copyright p{
 .sidebar figure {
   width: 40%;
   padding-left: 30%;
+  padding-bottom: 10%; 
+}
+
+.sidebar .lead-magnet figure {
+  width: 90%;
+  padding-top: 6%;
+  padding-left: 5%;
 }
 
 .sidebar-text p{
@@ -546,8 +553,6 @@ footer .copyright p{
   font-size: 1.5em;
   font-weight: bold;
 }
-
-
 
 /* Legal Docs */
 
@@ -682,7 +687,7 @@ flex-flow: column wrap;
 .book-banner {
     display: flex;
     justify-content: center;    
-    background: url(../img/book-banner-1.jpg);
+    background: url(../img/book-banner-1.png);
     min-height: 300px;  
     background-size:contain;
     background-position: center;
@@ -751,6 +756,17 @@ flex-flow: column wrap;
   text-align: center;
   color: gray;
   font-size: smaller;
+}
+
+.blog-posts ul li{
+  display: flex;
+  justify-content: left;
+  padding-left: 10%;
+  font-weight: bold;
+}
+
+.related-posts ul li {
+  color:#ef9791;
 }
 
 /*----Legal Pages ------*/
@@ -973,15 +989,16 @@ flex-flow: column wrap;
   display: flex;
   justify-content: space-between;
   margin: 0 3% 0 3%;
+  flex-flow: wrap-reverse;
 }
 
 
 .sidebar figure {
   width: 25%;
  padding: 0; 
-  
-
+ padding-bottom: 5%;
 }
+
 
 .sidebar-text{
   width: 70%;
@@ -1054,7 +1071,7 @@ footer .copyright {
 .book-banner {
   display: flex;
   justify-content: center;    
-  background: url(../img/book-banner-1.jpg);
+  background: url(../img/book-banner-1.png);
   min-height: 400px;  
   background-size: cover;
 
@@ -1206,7 +1223,7 @@ footer .copyright {
 .book-banner {
   display: flex;
   justify-content: center;    
-  background: url(../img/book-banner-1.jpg);
+  background: url(../img/book-banner-1.png);
   min-height: 700px;  
   background-size: cover;
 
