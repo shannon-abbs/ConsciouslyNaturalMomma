@@ -684,6 +684,13 @@ flex-flow: column wrap;
   color:#ef9791;
 }
 
+.footer-signup {
+  display: flex;
+justify-content: center;
+align-items: center;
+flex-flow: column wrap;
+}
+
 .book-banner {
     display: flex;
     justify-content: center;    
