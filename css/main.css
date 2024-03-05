@@ -472,11 +472,7 @@ footer .copyright p{
   text-align: center;
 }
 
-.blog-summary h4 {
-  margin: 20px 0;
-  border: #000d00 solid;
-  border-radius: 10%;
-}
+
 
 
 /* Book Summary */
@@ -689,6 +685,10 @@ flex-flow: column wrap;
 justify-content: center;
 align-items: center;
 flex-flow: column wrap;
+}
+
+.footer-signup h2 {
+text-align: center;
 }
 
 .book-banner {
