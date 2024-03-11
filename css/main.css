@@ -226,6 +226,13 @@ address {
   right: 0;
 }
 
+.sidebar-buttons {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+}
+
 
 /*buy now button*/
 
