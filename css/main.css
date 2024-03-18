@@ -152,6 +152,7 @@ p {
   text-align: left;
 }
 
+
 strong {
   font-weight: bold;
 }
@@ -576,6 +577,40 @@ footer .copyright p{
   flex-flow: row wrap;
   font-weight: bolder;
 }
+
+/******* About *******/
+
+.about-page {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  margin-bottom: 2px;
+}
+
+.about-page h2 {
+  padding-bottom: 0%;
+}
+
+.about-page .ap-one {
+  background-color: #000d00;
+  width: 90%;
+  padding: 3%;  
+}
+
+.about-page .ap-one h2 {
+ color:#fdfaf0;
+ text-align: center;
+}
+
+.about-page ul li {
+  width: 100%;
+  margin: 10px 0;
+  font-size: 1em;
+  font-weight: 600;
+  color: #ef9791;
+  
+}
+
 
 /**************** BOOK PAGE - MOBILE ***************/
 
