@@ -13,8 +13,8 @@
  <meta property="og:description" content="Discover how to conceive your baby fast with these 5 natural conception tips!">
  <meta property="og:type" content="website">
  <meta property="og:url" content="http://consciouslynaturalmomma.com/motherhood/5-conception-tips">
- <meta property="og:image" content="https://consciouslynaturalmomma.com/img/post-photos/5-conception-tips.png" >
- <meta property="og:image:secure_url" content="https://secure.consciouslynaturalmomma.com/img/post-photos/5-conception-tips.png" >
+ <meta property="og:image" content="https://consciouslynaturalmomma.com/img/post-photos/5.png" >
+ <meta property="og:image:secure_url" content="https://secure.consciouslynaturalmomma.com/img/post-photos/5.png" >
  <meta property="og:image:type" content="image/png" >
  <meta property="og:image:width" content="1200" >
  <meta property="og:image:height" content="630" >
@@ -139,7 +139,7 @@
             <!--post photo-->
             <img
               class="blog-entry-photo"
-              src="../img/post-photos/5-conception-tips.png"
+              src="../img/post-photos/5.png"
               alt="blog-entry-photo"
             >
           </figure>
