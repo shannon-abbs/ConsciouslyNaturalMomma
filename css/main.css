@@ -301,15 +301,10 @@ header .content-wrapper {
   justify-content: space-evenly;
   align-items: center;
   flex-flow: row wrap;
-  margin: 20px;
 }
 
 header figure {
-  width: 35%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
+  width: 23%;
 }
 
 /*** Don't touch the nav! ***/
@@ -332,6 +327,8 @@ header figure {
   padding: 14px 16px;
   text-decoration: none;
 }
+
+
 
 .topnav .icon {
   display: none;
@@ -406,7 +403,7 @@ header figure {
 
 @media screen and (max-width: 1200px) {
 
-
+  
   .topnav a:not(:first-child), .dropdown .dropbtn {
     display: none;
   }
@@ -626,6 +623,7 @@ footer .copyright p{
   font-size: 1em;
   font-weight: 600;
   color: #ef9791;
+  
 }
 
 /*--Sidebar--*/
@@ -1034,7 +1032,8 @@ text-align: center;
 
 
   .content-wrapper {
-    max-width: 640px;
+    max-width: 100%;
+    margin: 2%;
   }
 
   h1 {
@@ -1068,11 +1067,9 @@ text-align: center;
   }
 
   header nav {
-    width: 80%;
-    padding-right: 5%;
+    width: 100%;
     display:flex;
-    
-    justify-content:right;
+    justify-content:center;
   }
 
   
@@ -1422,6 +1419,18 @@ footer .copyright {
 }
 
  /*****----------- Blog Post & Category Template ----------********/
+ .topnav {
+  overflow: hidden;
+  background-color:#ef9791;
+  font-size: 20px;
+  font-family: inherit;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
  .parent-container {
   width: 100%;
   display:flex;
