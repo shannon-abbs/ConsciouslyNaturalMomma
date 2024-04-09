@@ -1068,8 +1068,11 @@ text-align: center;
   }
 
   header nav {
-    width: fit-content;
+    width: 80%;
     padding-right: 5%;
+    display:flex;
+    
+    justify-content:right;
   }
 
   
