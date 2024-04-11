@@ -88,31 +88,91 @@
 
 
 
-  <!--Header-->
-  <header>
-    <div class="content-wrapper"> 
+ <!--Header-->
+ <header>
+  <div class="content-wrapper"> 
+       
 
-      <!--Logo-->
-      <figure>
-        <a href="http://consciouslynaturalmomma.com" target="_blank"><img src="../img/pink-logo.png" alt="cnm-logo"></a>
-      </figure>
+    <nav>             
 
-      <nav>
-        <ul>
-          <li><a href="../about/" target="_blank">About</a></li>
-          <li><a href="../babyhood/" target="_blank">Babyhood & Beyond</a></li>
-          <li><a href="../book/" target="_blank">Buy The Book</a></li>
-          <li><a href="../homemaking/" target="_blank">Homemaking & Minimalism</a></li>
-          <li><a href="../homeschooling/" target="_blank">Homeschooling</a></li>
-          <li><a href="../motherhood/" target="_blank">Motherhood</a></li>
-        </ul>
-      </nav>
+      <div class="topnav" id="myTopnav">
+         <!--Logo-->
+        <figure>
+          <a href="http://consciouslynaturalmomma.com" target="_blank"><img src="../img/pink-logo.png" alt="cnm-logo" class="active"> </a>
+        </figure>
+        <a href="../about" class="dropdown">About</a>
+
+         <div class="dropdown">
+
+          <button class="dropbtn">Lifestyle 
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="../lifestyle/homemaking/">Homemaking</a>
+            <a href="../lifestyle/homeschooling/">Homeschooling</a>
+            <a href="../lifestyle/minimalism/">Minimalism</a>
+            <a href="../lifestyle/slowliving/">Slow Living</a>
+         </div>
+        </div> 
+        <div class="dropdown">
+          <button class="dropbtn">Little Ones 
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="../littleones/baby/">Baby</a>
+            <a href="../littleones/toddler/">Toddler</a>
+            <a href="../littleones/kiddo/">Kiddo</a>
+         </div>
+        </div> 
+         <div class="dropdown">
+          <button class="dropbtn">Motherhood 
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="../motherhood/pregnancy/">Pregnancy</a>
+            <a href="../motherhood/postpartum/">Postpartum</a>
+            <a href="../motherhood/momlife/">Mom Life</a>
+
+         </div>
+        </div> 
+         <div class="dropdown">
+          <button class="dropbtn">Shop 
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="../shop/">All</a>
+          <a href="../shop/book/">Buy The Book</a>
+         </div>
+        </div> 
+       
+            <a href="https://www.pinterest.com/ConsciouslyNaturalMomma/" target="_blank" rel="noopener">
+              <i class="fa-brands fa-pinterest"></i></a>
+
+            <a href="https://github.com/Shannon-Abbs" target="_blank" rel="noopener">
+                <i class="fa-brands fa-github"></i></a>
+        
+        <a href="javascript:void(0);" style="font-size:20px;" class="icon" onclick="myFunction()"><i class="fa-solid fa-ellipsis-vertical fa-beat"></i></a>
+        <script>
+          function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+              x.className += " responsive";
+            } else {
+              x.className = "topnav";
+            }
+          }
+          </script>
+        
+      </div>
       
-    </div>
-    <div class="header-divider">
-    </div>
-  </header>
-  <!--End Header-->
+</nav>
+  
+  <div class="header-divider">
+  </div>
+  </div>
+</header>
+<!--End Header-->
+
 
 
   <main><!--MAIN-->
@@ -128,7 +188,7 @@
         <div class="about-page"><!--parent-->  
           <div>
             <h2><strong>Hey, I'm Shannon!</strong></h2>
-            <p><em>Author & Owner of <a href="../book/"><strong><u>Consciously Natural Momma</u></strong></a>, Web Developer & Mother.</em></p>
+            <p><em>Author & Owner of <a href="../shop/book/"><strong><u>Consciously Natural Momma</u></strong></a>, Web Developer & Mother.</em></p>
             <br>
             <p>Here to enthusiastically teach like-minded moms and mothers-to-be about natural parenting practices! From conception and beyond.</p>
             <h2>Maybe You Can Relate:</h2>
@@ -137,7 +197,7 @@
             <p>I was totally hyped to have a natural pregnancy. I was determined to have a med free, home water birth & I wanted to try hynobirthing. Completely hellbent on raising my baby on the boobie (nursing) with cloth diapers, doing elimination communication, using minimalism to create a calm environment, co-sleeping while practicing gentle and attachment parenting.</p>
             <p>Anything *Crunchy Momma* you can think of, I was here for it!<em> (Although, I don't call myself crunchy.)</em></p>
             <!--cta-->
-            <p>✨Psst, learn about the full book here:<a href="../book/"><strong> "<u>Consciously Natural Momma: Natural Parenting Tips from Conception Through the Terrific Twos!</u>".✨</strong></a></p>
+            <p>✨Psst, learn about the full book here:<a href="../shop/book/"><strong> "<u>Consciously Natural Momma: Natural Parenting Tips from Conception Through the Terrific Twos!</u>".✨</strong></a></p>
             <!--end cta-->
             <h2>The Problem?</h2>
             <p>I was piecing together all this information from random sources I gathered all over the place. This lifestyle needed to flow as well. I also didn't have any peers who understood me or what I wanted for my baby. Doctors were telling me I couldn't have the birth I wanted. Despite being a completely healthy first time mother.</p>
@@ -147,7 +207,7 @@
 
             <p><strong>✧</strong> So, as I navigated motherhood, with my stubborn personality, I decided I'd have to put everything I'd learned into one place for other like-minded moms. Possibly like you &#128521. </p>
             <!--cta-->
-            <p><em>✨It all started with the book "<u>Consciously Natural Momma: Natural Parenting Tips from Conception Through the Terrific Twos!</u>" find out more<a href="../book/"><strong> here.</strong></a></em>✨</p>
+            <p><em>✨It all started with the book "<u>Consciously Natural Momma: Natural Parenting Tips from Conception Through the Terrific Twos!</u>" find out more<a href="../shop/book/"><strong> here.</strong></a></em>✨</p>
             <br>
             <!--end cta-->
 
@@ -171,7 +231,7 @@
         <p>You'll also gain knowledge on how to have a minimalist home for ease, preparing for your baby, med free birth practices, hypnobirthing, and postpartum care.</p>
         <p>I also share attachments and gentle parenting methods as well as how homeschooling fits the bill there too.</p>
         <p>And hey, if it all doesn't resonate for you then that's also okay! Something here will be of use to you I'm sure of it!</p>
-        <p><em>✨Go ahead and also check out the full book "<u>Consciously Natural Momma: Natural Parenting Tips from Conception Through the Terrific Twos!</u>". To learn more<a href="../book/"><strong> click here.</strong></a></em>✨</p>
+        <p><em>✨Go ahead and also check out the full book "<u>Consciously Natural Momma: Natural Parenting Tips from Conception Through the Terrific Twos!</u>". To learn more<a href="../shop/book/"><strong> click here.</strong></a></em>✨</p>
       </div> 
       <h2>
        If you're curious & would like a little freebie:</h2>
@@ -179,19 +239,92 @@
       </div> 
 </div>
 
-<!--Sidebar-->
+<!--Sidebar--><!--Child 2-->
 
 <div class="sidebar"> <!--Child 2-->
-   
-   <!--Sidebar Buttons-->
-   <div class="sidebar-buttons">
-    <a href="../babyhood" target="_blank"><button class="read-button" style="vertical-align:middle"><span>Babyhood & Beyond</span></button></a>
-    <a href="../book/" target="_blank"><button class="read-button" style="vertical-align:middle"><span>Buy The Book!</span></button></a>
-    <a href="../homemaking" target="_blank"><button class="read-button" style="vertical-align:middle"><span>Homemaking & Minimalism</span></button></a>
-    <a href="../homeschooling" target="_blank"><button class="read-button" style="vertical-align:middle"><span>Homeschooling</span></button></a>
-    <a href="../motherhood" target="_blank"><button class="read-button" style="vertical-align:middle"><span>Motherhood</span></button></a>
- 
+  <figure>
+    <a href="http://consciouslynaturalmomma.com/about" target="_blank"><img src="../img/bio-photo-1.png" alt="Shannon-bio"></a>
+  </figure>
+  <div class="sidebar-text"> <!--child 2-->
+    <h3> Hey, I'm Shannon!</h3>
+    <p>
+            I teach naturally-minded moms how to navigate motherhood with a
+            consciously natural lifestyle.<br>
+            <strong>With Confidence!</strong><br>
+            I'm a homeschooling, slow living, minimalist. I'm vegan, witchy & may even curse a little.<br>
+            Go ahead & read around if that sounds great to you!
+            </p>
+   </div>
+
+<!--sidebar nav-->
+
+<div class="topnav" id="myTopnav">
+  
+ <a href="../about" class="dropdown">About</a>
+
+  <div class="dropdown">
+
+   <button class="dropbtn">Lifestyle 
+     <i class="fa fa-caret-down"></i>
+   </button>
+   <div class="dropdown-content">
+     <a href="../lifestyle/homemaking/">Homemaking</a>
+     <a href="../lifestyle/homeschooling/">Homeschooling</a>
+     <a href="../lifestyle/minimalism/">Minimalism</a>
+     <a href="../lifestyle/slowliving/">Slow Living</a>
   </div>
+ </div> 
+ <div class="dropdown">
+   <button class="dropbtn">Little Ones 
+     <i class="fa fa-caret-down"></i>
+   </button>
+   <div class="dropdown-content">
+     <a href="../littleones/baby/">Baby</a>
+     <a href="../littleones/toddler/">Toddler</a>
+     <a href="../littleones/kiddo/">Kiddo</a>
+  </div>
+ </div> 
+  <div class="dropdown">
+   <button class="dropbtn">Motherhood 
+     <i class="fa fa-caret-down"></i>
+   </button>
+   <div class="dropdown-content">
+         <a href="../motherhood/pregnancy/">Pregnancy</a>
+     <a href="../motherhood/postpartum/">Postpartum</a>
+     <a href="../motherhood/momlife/">Mom Life</a>
+
+  </div>
+ </div> 
+  <div class="dropdown">
+   <button class="dropbtn">Shop 
+     <i class="fa fa-caret-down"></i>
+   </button>
+   <div class="dropdown-content">
+<a href="../shop/">All</a>
+   <a href="../shop/book/">Buy The Book</a>
+  </div>
+ </div> 
+
+     <a href="https://www.pinterest.com/ConsciouslyNaturalMomma/" target="_blank" rel="noopener">
+       <i class="fa-brands fa-pinterest"></i></a>
+
+     <a href="https://github.com/Shannon-Abbs" target="_blank" rel="noopener">
+         <i class="fa-brands fa-github"></i></a>
+ 
+ <a href="javascript:void(0);" style="font-size:20px;" class="icon" onclick="myFunction()"><i class="fa-solid fa-ellipsis-vertical fa-beat"></i></a>
+ <script>
+   function myFunction() {
+     var x = document.getElementById("myTopnav");
+     if (x.className === "topnav") {
+       x.className += " responsive";
+     } else {
+       x.className = "topnav";
+     }
+   }
+   </script>
+ 
+</div>
+<!--end sidebar nav-->
 
    <!--lead magnets-->
   <div class="lead-magnet">

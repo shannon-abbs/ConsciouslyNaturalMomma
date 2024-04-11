@@ -218,11 +218,11 @@ address {
   transition: 0.5s;
 }
 
-.read-button:hover span {
+.read-button:click span {
   padding-right: 25px;
 }
 
-.read-button:hover span:after {
+.read-button:click span:after {
   opacity: 1;
   right: 0;
 }
@@ -272,11 +272,11 @@ address {
   transition: 0.5s;
 }
 
-.buy-button:hover span {
+.buy-button:click span {
   padding-right: 25px;
 }
 
-.buy-button:hover span:after {
+.buy-button:click span:after {
   opacity: 1;
   right: 0;
 }
