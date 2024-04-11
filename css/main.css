@@ -542,6 +542,10 @@ footer .copyright p{
 
 /** Blog Summary **/
 
+.page-name{
+  padding-bottom: 3%;
+}
+
 .page-name h1 {
   display:flex;
   justify-content: center;
@@ -549,7 +553,6 @@ footer .copyright p{
   line-height: 100%;
   font-family: 'lobster', cursive;  
   text-shadow: 5px 5px 10px #ef9791;
-  padding-top: 3%;
 }
 
 
