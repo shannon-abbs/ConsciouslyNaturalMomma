@@ -207,6 +207,7 @@ address {
   display: inline-block;
   position: relative;
   transition: 0.5s;
+  
 }
 
 .read-button span:after {
