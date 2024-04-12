@@ -227,15 +227,10 @@ address {
   right: 0;
 }
 
-.sidebar-buttons {
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: column;
-}
 
 
-/*buy now button*/
+
+/*Buy Now > button*/
 
  .buy-button {
   display: flex;
@@ -433,8 +428,6 @@ header figure {
 }
 
 
-
-
 .header-divider {
   background:  #000d00;
   height: 1px;
@@ -543,7 +536,7 @@ footer .copyright p{
 /** Blog Summary **/
 
 .page-name{
-  padding-bottom: 3%;
+  padding-top: 2%;
 }
 
 .page-name h1 {
@@ -566,6 +559,7 @@ footer .copyright p{
 .blog-summary {
   display: flex;
   justify-content: center;
+  align-items: center;
   width: 100%;
 }
 
@@ -581,9 +575,26 @@ footer .copyright p{
  width: 80%;
   margin: 20px 0;
   justify-content: center;
-  text-align: center;
+  
 }
 
+.blog-summary article p {
+  text-align: center;
+  font-weight: bold;
+  color:#000d00;
+}
+
+.blog-summary article p span {
+  color:rgb(255, 43, 54);
+  font-size: large;
+  
+}
+
+.blog-item a {
+  display: flex;
+  justify-content: center;
+
+}
 
 
 
