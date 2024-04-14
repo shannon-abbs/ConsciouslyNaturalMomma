@@ -230,7 +230,6 @@ address {
 
 
 
-
 /*Buy Now > button*/
 
  .buy-button {
@@ -660,11 +659,13 @@ footer .copyright p{
 .sidebar .lead-magnet {
   display: flex;
   justify-content: space-evenly;
-  
+  flex-direction: column;
+  align-items: center;
 }
 .sidebar .lead-magnet figure {
   padding: 0;
   }
+
 
 .sidebar-text p{
   text-align: center;
