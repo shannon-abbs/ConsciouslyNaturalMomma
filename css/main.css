@@ -219,9 +219,20 @@ address {
   transition: 0.5s;
 }
 
+.read-button span:hover {
+  padding-right: 25px;
+}
+
+.read-button:hoover span:after {
+  opacity: 1;
+  right: 0;
+  
+}
+
 .read-button:click span {
   padding-right: 25px;
 }
+
 
 .read-button:click span:after {
   opacity: 1;
