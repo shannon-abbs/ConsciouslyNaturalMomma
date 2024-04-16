@@ -1462,7 +1462,7 @@ footer .copyright {
   font-size: 20px;
   font-family: inherit;
   display:flex;
-  justify-content: space-between;
+  justify-content: inherit;
   align-items: center;
 }
 
