@@ -413,11 +413,20 @@ header figure {
   .topnav a:not(:first-child), .dropdown .dropbtn {
     display: none;
   }
+
   .topnav a.icon {
     float: right;
     display: block;
   }
-  .topnav.responsive {position: relative;}
+
+
+  .topnav.responsive {
+    position: relative;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  }
+
   .topnav.responsive .icon {
     position: absolute;
     right: 0;
@@ -1062,7 +1071,6 @@ text-align: center;
 
   .content-wrapper {
     max-width: 100%;
-    margin: 2%;
   }
 
   h1 {
