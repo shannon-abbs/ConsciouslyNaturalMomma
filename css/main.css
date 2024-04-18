@@ -1362,8 +1362,8 @@ footer .copyright {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-flow: row wrap;
-    flex-basis: 20%;
+    flex-flow: column wrap;
+    flex-basis: 25%;
     padding: 1%;
   
   }
