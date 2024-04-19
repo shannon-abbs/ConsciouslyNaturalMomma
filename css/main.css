@@ -566,6 +566,8 @@ footer .copyright p{
   line-height: 100%;
   font-family: 'lobster', cursive;  
   text-shadow: 5px 5px 10px #ef9791;
+  padding-bottom: 2%;
+
 }
 
 
@@ -940,6 +942,12 @@ text-align: center;
 .child-1 h1, h2, p {
   text-align: left;
   color:#000d00;
+}
+
+.child-1 h2 {
+  color:#ef9791;
+  padding: 5%;
+  
 }
 
 .child-1 article {
