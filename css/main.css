@@ -341,7 +341,6 @@ header figure {
 }
 
 .dropdown {
-  float: left;
   overflow: hidden;
 
 }
@@ -946,7 +945,7 @@ text-align: center;
 
 .child-1 h2 {
   color:#ef9791;
-  padding: 5%;
+  
   
 }
 
@@ -957,16 +956,19 @@ text-align: center;
 }
 
 .blog-posts ul li{
-  display: flex;
-  justify-content: left;
-  padding-left: 10%;
+  text-align: left;
   font-weight: bold;
-  font-size:larger;
-  
+  font-size: 1em;
+  line-height: 2;
 }
 
+
 .related-posts ul li {
-  color:#ef9791;
+  line-height: 2;
+  font-size: 1em;
+  font-weight: bold;
+  text-align: left;
+
 }
 
 /*----Legal Pages ------*/
