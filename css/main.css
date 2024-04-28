@@ -842,7 +842,7 @@ text-align: left;
 #for-you {
   display: flex;
   justify-content: center;
-  padding: 4%;
+  padding: 8%;
   text-align: center;
   
 }
@@ -857,7 +857,6 @@ flex-flow: column wrap;
 .fy-text p {
   text-align: center;
   color:#000d00;
-  font-weight: bold;
 }
 
 .fy-text h1, strong {
