@@ -165,6 +165,7 @@ input {
 
 img {
   width: 100%;
+  border-radius: 20px;
 }
 
 figure {
@@ -190,6 +191,7 @@ address {
   border-radius: 4px;
   background-color: #ef9791;
   border: none;
+  border-radius: 15px;
   color: #fdfaf0;
   text-align: center;
   font-size: 16px;
@@ -322,7 +324,7 @@ header figure {
   background-color:#ef9791;
   font-size: 20px;
   font-family: inherit;
-  
+
 }
 
 .topnav a {
@@ -332,6 +334,7 @@ header figure {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  border-radius: 20px;
 }
 
 
@@ -342,7 +345,11 @@ header figure {
 
 .dropdown {
   overflow: hidden;
+  border-radius: 20px;
+}
 
+.dropdown-content {
+  border-radius: 20px;
 }
 
 .sidebar .topnav {
@@ -351,6 +358,7 @@ header figure {
   flex-direction: column;
   align-items: center;
   margin: 2%;
+  border-radius: 20px;
 }
 
 .sidebar .dropdown {
@@ -389,6 +397,7 @@ header figure {
   padding: 12px 16px;
   text-decoration: none;
   display: block;
+  
 }
 
 .topnav a:hover, .dropdown:hover .dropbtn {
@@ -397,7 +406,7 @@ header figure {
 }
 
 .dropdown-content a:hover {
-  background-color: #ddd;
+  background-color: #ef9791;
   color: black;
 }
 
@@ -500,6 +509,7 @@ footer .social-icons p {
   display: flex;
   justify-content: center;
   align-items: center;
+  
 }
 
 footer .social-icons p i {
@@ -510,6 +520,7 @@ footer .copyright p{
   text-align: center;
   margin: 20px 0;
   color:#fdfaf0;
+  
 }
 
 /* -------------------- Mobile - HOME PAGE -------------------- */
@@ -593,10 +604,14 @@ footer .copyright p{
 }
 
 .blog-summary article {
- width: 80%;
+  width: 80%;
   margin: 20px 0;
   justify-content: center;
-  
+  border: #000d00;
+}
+
+.blog-summer article a {
+  border-radius: 10%;
 }
 
 .blog-summary article p {
@@ -736,7 +751,8 @@ footer .copyright p{
 .about-page .ap-one {
   background-color: #000d00;
   width: 90%;
-  padding: 3%;  
+  padding: 3%; 
+  border-radius: 20px; 
 }
 
 .about-page .ap-one h2 {
