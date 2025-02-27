@@ -1388,14 +1388,14 @@ footer .copyright {
     justify-content: center;
     align-items: center;
     flex-flow: column wrap;
-    flex-basis: 25%;
-    padding: 1%;
+    flex-basis: 24%;
+    padding: 2%;
   
   }
 
 
 .book-summary p h2 {
-  padding: 3%;
+  padding: 5%;
 }
 
 
