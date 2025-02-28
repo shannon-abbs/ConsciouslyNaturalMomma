@@ -895,7 +895,7 @@ text-align: center;
     display: flex;
     justify-content: center;    
     background: url(../img/book-banner.png);
-    min-height: 300px;  
+    min-height: 333px;  
     background-size:contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -1295,7 +1295,7 @@ footer .copyright {
   display: flex;
   justify-content: center;    
   background: url(../img/book-banner.png);
-  min-height: 400px;  
+  min-height: 425px;  
   background-size: cover;
 
 }
@@ -1447,7 +1447,7 @@ footer .copyright {
   display: flex;
   justify-content: center;    
   background: url(../img/book-banner.png);
-  min-height: 700px;  
+  min-height: 800px;  
   background-size: cover;
 
 }
