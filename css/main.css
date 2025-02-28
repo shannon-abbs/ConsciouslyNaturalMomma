@@ -498,12 +498,13 @@ footer .social-icons {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 10px;
   
 }
 
 footer .social-icons p {
   background-color:#f7f7f7;
-  border-radius: 50%;
+  border-radius: 53%;
   width: 40px;
   height: 40px;
   display: flex;
@@ -852,7 +853,7 @@ flex-flow: column wrap;
 
 .sd-flex-2 ul {
 text-align: left;
-
+line-height: 1.5;
 }  
 
 #for-you {
