@@ -152,6 +152,9 @@ p {
   text-align: left;
 }
 
+.sparkle {
+  color: #4fd59e;
+}
 
 strong {
   font-weight: bold;
@@ -288,6 +291,8 @@ address {
   opacity: 1;
   right: 0;
 }
+
+
 
 /* -------------------- Base Header - Footer Styles -------------------- */
 
