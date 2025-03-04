@@ -110,7 +110,7 @@ ol {
 }
 
 a {
-  color: #ef9791;
+  color: #DA746F;
   text-decoration: none;
 }
 
@@ -137,7 +137,7 @@ h4 {
   font-weight: 600;
   font-style: normal;
   letter-spacing: 1px;
-  color: #ef9791;
+  color: #DA746F;
 }
 
 p {
@@ -189,7 +189,7 @@ address {
 .read-button {
   display: inline-block;
   border-radius: 4px;
-  background-color: #ef9791;
+  background-color: #DA746F;
   border: none;
   border-radius: 15px;
   color: #f7f7f7;
@@ -324,7 +324,7 @@ header figure {
   background-color:#000d00;
   font-size: 20px;
   font-family: inherit;
-
+  width: 100%;
 }
 
 .topnav a {
@@ -576,7 +576,7 @@ footer .copyright p{
   color:#000d00;
   line-height: 100%;
   font-family: 'lobster', cursive;  
-  text-shadow: 5px 5px 10px #ef9791;
+  text-shadow: 5px 5px 10px #DA746F;
   padding-bottom: 2%;
 
 }
@@ -675,7 +675,7 @@ footer .copyright p{
   margin: 20px 0;
   font-size: 1em;
   font-weight: 600;
-  color: #ef9791;
+  color: #DA746F;
   
 }
 
@@ -766,7 +766,7 @@ footer .copyright p{
   margin: 10px 0;
   font-size: 1em;
   font-weight: 600;
-  color: #ef9791;
+  color: #DA746F;
   
 }
 
@@ -803,7 +803,7 @@ font-size: 2.5em;
 }
 
 .quick-intro-parent h2, h3 {
-  color:#ef9791;
+  color:#DA746F;
   
 }
 
@@ -848,7 +848,7 @@ flex-flow: column wrap;
 }
 .sd-flex-2 h1 {
   padding-top: 5%;
-  color:#ef9791;
+  color:#DA746F;
   }
 
 .sd-flex-2 ul {
@@ -877,7 +877,7 @@ flex-flow: column wrap;
 }
 
 .fy-text h1, strong {
-  color:#ef9791;
+  color:#DA746F;
 }
 
 .footer-signup {
@@ -948,7 +948,7 @@ text-align: center;
 
 .date-category h4 {
   text-align: left;
-  color:#ef9791;
+  color:#DA746F;
   font-family: 'lobster', cursive;
   padding: 1%;
   margin:0%;
@@ -960,7 +960,7 @@ text-align: center;
 }
 
 .child-1 h2 {
-  color:#ef9791;
+  color:#DA746F;
   
   
 }
@@ -1439,7 +1439,7 @@ footer .copyright {
   color:#f7f7f7;
 }
 .sd-flex-2 ul li {
-  color:#ef9791;
+  color:#DA746F;
 
 }
 
@@ -1484,7 +1484,7 @@ footer .copyright {
  /*****----------- Blog Post & Category Template ----------********/
  .topnav {
   overflow: hidden;
-  background-color:#ef9791;
+  background-color:#DA746F;
   font-size: 20px;
   font-family: inherit;
   display:flex;
